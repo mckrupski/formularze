@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularze</title>
+    <link rel="icon" type="image/x-icon" href="../Formularze/favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Welcome, Please Sign In</h2>
+
+<fieldset>
+        <legend><b>Returning Customers: Please Log In</b></legend>    
+    <form action="mailto:e-mail" method="post" enctype="text/plain"><div>
+        <table bgcolor="silver">
+        <tr>
+            <td>Email:</td><td><input type="text" name="email"></td>
+        </tr>
+        <tr>
+            <td>Password:</td><td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td><button>Login</button></td>
+        </tr>
+        </table>
+        </div></form>
+</fieldset>
+
+   
+    <fieldset>
+        <legend><b>Personal data</b></legend>
+    <form action="mailto:e-mail" method="post" enctype="text/plain"><div>
+        <table bgcolor="silver">
+        <tr>
+            <td>Name:</td><td><input type="text" name="imie"></td>
+        </tr>
+        <tr>
+            <td>Surname:</td><td><input type="text" name="nazwisko"></td>
+        </tr>
+        </table>
+        </div></form>
+       </fieldset> 
+
+ <fieldset>
+     <fieldset>
+         <legend><b>New? Please Provide Your Billing Information</b></legend>
+         <p> Create a login profile with <b>OSC DEMO</b> which allows you to shop faster, track the status of your current orders and review your previous orders.</p>
+         <p> <span>* Required information</span> </p>
+     </fieldset>
+    <fieldset>
+        <legend><b>Company Dettals</b></legend>
+        <form action="mailto:e-mail" method="post" enctype="text/plain"><div>
+            <table bgcolor="silver">
+        <tr>
+            <td>Company Name:</td><td><input type="taxt" name="nazwa"></td>
+        </tr>
+        </table>
+       </fieldset>
+
+
+<div class="ms">
+    <fieldset>
+        <legend><b>Create a new account</b></legend>
+      <form action="mailto:e-mail" method="post" enctype="text/plain"><div>
+        <table bgcolor="silver">
+           <tr>
+               <td>Sex:</td><td><div><input type="radio" name="sex" value="mężczyzna">Man</div><div><input type="radio" name="sex" value="kobita">Women</div></td>
+           </tr>
+            <td>First Name:</td><td><input type="text" name="imie"></td>
+        </tr>
+        <tr>
+            <td>Last Name:</td><td><input type="text" name="nazwisko"></td>
+        </tr>
+        <tr>
+            <td>Street Adress:</td><td><input type="text" name="adress"></td>
+        </tr>
+        <tr>
+            <td>Adress Line 2:</td><td><input type="text" name="adress"></td>
+        </tr>
+        <tr>
+            <td>City:</td><td><input type="text" name="miasto"></td>
+        </tr>
+        <tr>
+            <td>State/Province:</td><td><input type="text" name="wojewodztwo"></td>
+        </tr>
+        <tr>
+            <td>Post/ Zip Code:</td><td><input type="text" name="kod pocztowy"></td>
+        </tr>
+        <tr>
+            <td>Country:</td><td>
+                <select name="countries" id="countries">
+                    <option value="zero"></option>
+                    <option value="poland">Poland</option>
+                    <option value="usa">USA</option>
+                    <option value="france">Francja
+                    <option value="england">England</option>
+                    <option value="spain">Spain</option>
+                    <option value="russian">Russian</option>
+                    <option value="gemany">Germany</option>
+                    <option value="uk">UK</option>
+                    </option>
+                </select>
+            </td>
+        </tr>
+        </table>
+        </div></form>
+        </fieldset>
+</div> 
+       
+<fieldset>
+    <legend><b>Enter your comment</b></legend>
+    <form action="mailto:e-mail" method="post" enctype="text/plain"><div>
+        <table bgcolor="silver">
+    <tr>
+        <td><textarea name="Komentarz" cols="40" rows="10" placeholder="Please, enter a comment here..."></textarea>
+            <br><br><br>
+            <!-- Przycisk WYŚLIJ -->
+            <input type="submit" value="Send the form">
+            <!-- Przycisk WYCZYŚĆ DANE -->
+            <input type="reset" value="Clear data">
+            </div></form>
+    </tr>
+    </table>
+</fieldset>
+
+ </fieldset>
+
+
+</body>
+</html>

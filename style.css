@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0 50px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    background-image: url("img/beige-tiles.webp");
+    
+}
+
+td button{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: grey;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgba(0, 113, 240, 0.7);
+}
+
+h2{
+    color: rgb(190, 190, 190);
+}
+
+#countries {
+   width: 177px;
+}
+
+.text{
+    color: rgb(176, 176, 176);
+}
+
+a:hover{
+        color: rgb(255, 0, 0);
+}
+
+p span{
+    color: red;
+    float: right;
+}
+
+table{
+    box-shadow: 0 4px 16px grey;
+}
